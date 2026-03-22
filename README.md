@@ -1,11 +1,11 @@
 # hackercard
-> 根据NFC卡片设计的一个本人名片
+> A personal business card designed based on NFC card technology
 
 ### BOM
-U1    NT3H2111W0FHKH
-LED KT-0805Y
-47Ω resistor 0603WAF470JT5E
-220nF capacitor 0603WAF470JT5E
+- U1    NT3H2111W0FHKH
+- LED KT-0805Y
+- 47Ω resistor 0603WAF470JT5E
+- 220nF capacitor 0603WAF470JT5E
 
 
 ### PCB
