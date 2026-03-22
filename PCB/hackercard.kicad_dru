@@ -1,0 +1,10 @@
+(version 1)
+(rule "Allow_Short_U1_Pad8_to_Antenna_Pad1"
+    (constraint clearance (min -1))
+    (condition "A.memberOfFootprint('U1') && A.Pad_Number == '8' && B.memberOfFootprint('25X48MM_NFC_ANTENNA') && B.Pad_Number == 'P$1'")
+)
+
+(rule "Allow_Short_U1_Pad1_to_Antenna_Pad2"
+    (constraint clearance (min -1))
+    (condition "A.memberOfFootprint('U1') && A.Pad_Number == '1' && B.memberOfFootprint('25X48MM_NFC_ANTENNA') && B.Pad_Number == 'P$2'")
+)
